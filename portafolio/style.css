@@ -1,0 +1,144 @@
+
+/* css para index.html */
+
+body {
+    background-color: red;
+}
+
+.header {
+    color: white;
+    background-color: black;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    height: 200px;
+}
+
+.img {
+    border: 2px solid red;
+    float: left;
+    padding: 10px;
+    width: 200px;
+    height: 190px;
+    object-fit: contain;
+    border-radius: 200px;
+    background: red;
+    margin-right: 20px;
+}
+
+.nav {
+    background: red;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    height: 80px;
+}
+
+.nav-link {
+    box-shadow: 2px 0px 2px 0px black;
+    color: aliceblue;
+    background: red;
+    border: 1px solid black;
+    padding: 20px;
+    width: 410px;
+
+}
+
+section {
+    color: white;
+    float: left;
+    height: 800px;
+    width: 75%;
+    background: black;
+    padding: 15px;
+}
+
+section main div h2 {
+    padding-top: 100px
+}
+
+aside {
+    color: white;
+    padding: 20px;
+    float: left;
+    width: 25%;
+    height: 800px;
+    background: gray;
+}
+
+.fixed-bottom {
+    height: 200px;
+    background: rgba(255, 0, 0, 0.995);
+    color: white;
+}
+
+.redes-sociales {
+    padding: 20px;
+    display: inline;
+    justify-content: end;
+}
+
+.icon {
+    width: 70px;
+    display: inline;
+}
+
+/* css para sobremi.html */
+
+.titulo {
+    background: black;
+    text-align: center;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.titulo1 {
+    font-size: 80px;
+    padding: 65px;
+    color: white;
+}
+
+.sobremi {
+    text-align: center;
+}
+
+.texto {
+    width: 550px;
+    font-size: 40px;
+    margin: 10px auto;
+    color: black;
+    background: darkred;
+
+}
+
+/* css para contacto.html */
+
+.formas {
+    background: red;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    height: 180px;
+}
+
+.red {
+    background-color: gray;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* css para proyectos.html */
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+.sub {
+    margin-top: 30px;
+    text-align: center;
+}
